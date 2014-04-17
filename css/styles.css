@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-smb-cape:before {
+  content: "v";
+}
+.icon-smb-star:before {
+  content: "s";
+}
+.icon-smb-flower:before {
+  content: "z";
+}
+.icon-smb-mushroom:before {
+  content: "u";
+}
+.icon-smb-leaf:before {
+  content: "r";
+}
+.icon-smb-coin:before {
+  content: "c";
+}
+.icon-smb-toad:before {
+  content: "t";
+}
+.icon-smb-yoshi:before {
+  content: "y";
+}
+.icon-smb-mario:before {
+  content: "m";
+}
+.icon-smb-luigi:before {
+  content: "l";
+}
+.icon-smb-princess:before {
+  content: "p";
+}
+.icon-smb-bowser:before {
+  content: "b";
+}
+
+
+/* Styling */
+body {
+  background: #A9C5DE;
+  color: #000;
+}
+.box {
+  background: #666;
+  margin: 5%;
+}
+h1 {
+  font-family: 'Gafata', sans-serif;
+  text-align: center;margin: 5%;
+}
+li div {
+  text-align: center;
+  font-size: 5em;
+  text-shadow: 1px 1px #888;
+}
+
+img {
+display: block;
+margin: auto;
+}
